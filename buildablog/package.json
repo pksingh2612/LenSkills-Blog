@@ -1,0 +1,29 @@
+{
+  "name": "buildablog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "*",
+    "body-parser": "*",
+    "cloudinary": "*",
+    "connect-flash": "*",
+    "connect-mongo": "*",
+    "dotenv": "^6.0.0",
+    "edge.js": "*",
+    "express": "*",
+    "express-edge": "*",
+    "express-fileupload": "*",
+    "express-session": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
